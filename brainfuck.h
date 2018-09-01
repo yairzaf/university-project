@@ -3,7 +3,7 @@
 /**
 lightweight vanilla bf to c compiler, gets code from stdin and outputs to stdout.
 you can redirect the the input and/or output to files using a 'pipe' (added example in the batch file).
-or type/paste the code directly to the program and get the output of the c code directly to the screen.
+or type/paste the code directly to the console, and get the output of the c code directly to the console.
 */
 
 
