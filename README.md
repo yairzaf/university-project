@@ -43,27 +43,45 @@ examples:
 
 ### instructions:
 mov source operand,destination operand
+
 cmp operand,operand
+
 add operand to add,added operand
+
 sub operand to subtract,subtracted operand
+
 lea adress operand,destination operand
+
 not operand
+
 clr operand
+
 inc operand
+
 dec operand
+
 jmp address operand(optional operand as argument,optional operand as argument)
+
 bne address operand(optional operand as argument,optional operand as argument)
+
 red operand
+
 prn operand
+
 jsr address operand(optional operand as argument,optional operand as argument)
+
 rts
+
 stop
 
 examples:
 
 START:
+
 lea START(r2,#84)
+
 mov #1,r2
+
 add NUM,NUM2
 
 
