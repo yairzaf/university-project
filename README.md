@@ -1,9 +1,9 @@
-#assembler for a ficitional 14bit machine
+# assembler for a ficitional 14bit machine
 
-##architecture:
+## architecture:
 
-###memory:
+### memory:
 
-###registers:
+### registers:
 
-###instructions:
+### instructions:
