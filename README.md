@@ -93,8 +93,9 @@ add NUM,NUM2
 will add data to the data segment
 examples:
  
- .data -56,84,911,23
- .string "hello world"
+.data -56,84,911,23
+ 
+.string "hello world"
  
  ### comment:
  comment will start with ';' at the begining of a line.
