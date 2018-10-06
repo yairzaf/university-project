@@ -1,9 +1,93 @@
-# assembler for a ficitional 14bit machine
+# assembler for a ficitional 14 - bit machine
 
 ## architecture:
 
 ### memory:
+256X14bit-word
+cann't reference an address directly, can reference a label in the instruction segement or the data segment.
 
 ### registers:
+8 14-bit registers
+refernce in code:
+r0,r1,r3 . . .  r7
+
+### flags:
+zero flag.
+
+### labels:
+first letter can't be a number.
+can contain only letters and numbers (lower and uppercase).
+will end with ':'.
+max size of 32 characters.
+
+examples:
+
+START:
+
+HelloWorld123:
+
+EOF:
+
+### direct data for instructions:
+
+begins with '#'.
+must contain only numbers, can't be empty.
+
+examples:
+
+#4567
+
+#11
+
+#0
 
 ### instructions:
+mov source operand,destination operand
+cmp operand,operand
+add operand to add,added operand
+sub operand to subtract,subtracted operand
+lea adress operand,destination operand
+not operand
+clr operand
+inc operand
+dec operand
+jmp address operand(optional operand as argument,optional operand as argument)
+bne address operand(optional operand as argument,optional operand as argument)
+red operand
+prn operand
+jsr address operand(optional operand as argument,optional operand as argument)
+rts
+stop
+
+examples:
+
+START:
+lea START(r2,#84)
+mov #1,r2
+add NUM,NUM2
+
+
+### specifcations for assembler.
+
+.data number array
+.string "string"
+
+will add data to the data segment
+examples:
+ 
+ .data -56,84,911,23
+ .string "hello world"
+ 
+ ### comment:
+ comment will start with ';' at the begining of a line.
+ assembler will ignore those lines.
+ 
+ examples:
+ 
+ ; my program
+ 
+ ; insert routine here
+ 
+ 
+ #### for the inner workings of the assembler, look at ASSEMBLER_DESC.pdf
+ 
