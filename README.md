@@ -7,7 +7,8 @@
 cann't reference an address directly, can reference a label in the instruction segement or the data segment.
 
 ### registers:
-8 14-bit registers
+8 14-bit registers.
+
 refernce in code:
 r0,r1,r3 . . .  r7
 
