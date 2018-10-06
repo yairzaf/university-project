@@ -4,12 +4,14 @@
 
 ### memory:
 256X14bit-word
+
 cann't reference an address directly, can reference a label in the instruction segement or the data segment.
 
 ### registers:
 8 14-bit registers.
 
 refernce in code:
+
 r0,r1,r3 . . .  r7
 
 ### flags:
@@ -17,8 +19,11 @@ zero flag.
 
 ### labels:
 first letter can't be a number.
+
 can contain only letters and numbers (lower and uppercase).
+
 will end with ':'.
+
 max size of 32 characters.
 
 examples:
@@ -32,6 +37,7 @@ EOF:
 ### direct data for instructions:
 
 begins with '#'.
+
 must contain only numbers, can't be empty.
 
 examples:
@@ -89,9 +95,11 @@ add NUM,NUM2
 ### specifcations for assembler.
 
 .data number array
+
 .string "string"
 
 will add data to the data segment
+
 examples:
  
 .data -56,84,911,23
@@ -100,6 +108,7 @@ examples:
  
  ### comment:
  comment will start with ';' at the begining of a line.
+ 
  assembler will ignore those lines.
  
  examples:
