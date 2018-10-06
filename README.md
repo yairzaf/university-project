@@ -49,6 +49,7 @@ examples:
 #0
 
 ### instructions:
+```
 mov source operand,destination operand
 
 cmp operand,operand
@@ -80,6 +81,7 @@ jsr address operand(optional operand as argument,optional operand as argument)
 rts
 
 stop
+```
 
 examples:
 
