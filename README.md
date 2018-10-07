@@ -1,4 +1,5 @@
 # assembler for a ficitional 14 - bit machine
+ ##### this is a summary, for the full assignment look at assignment.pdf (hebrew)
 
 ## architecture:
 
