@@ -42,11 +42,11 @@ must contain only numbers, can't be empty.
 
 examples:
 
-#4567
+mov #4567,r5
 
-#11
+add #11,NUM
 
-#0
+
 
 ### instructions:
 ```
@@ -94,13 +94,13 @@ mov #1,r2
 add NUM,NUM2
 
 
-### specifcations for assembler.
+### specifcations for the assembler.
 
 .data number array
 
 .string "string"
 
-will add data to the data segment
+this will add the specified data to the data segment
 
 examples:
  
