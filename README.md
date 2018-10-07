@@ -17,6 +17,8 @@ r0,r1,r3 . . .  r7
 ### flags:
 zero flag.
 
+## syntax:
+
 ### labels:
 first letter can't be a number.
 
@@ -27,13 +29,12 @@ will end with ':'.
 max size of 32 characters.
 
 examples:
-
-START:
-
+```
+START: mov r1,r2
 HelloWorld123:
-
+.string "hello world"
 EOF:
-
+```
 ### direct data for instructions:
 
 begins with '#'.
