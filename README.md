@@ -113,7 +113,7 @@ examples:
  ### comment:
  comment will start with ';' at the begining of a line.
  
- assembler will ignore those lines.
+ the assembler will ignore those lines.
  
  examples:
  
