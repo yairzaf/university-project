@@ -60,7 +60,7 @@ add operand to add,added operand
 
 sub operand to subtract,subtracted operand
 
-lea adress operand,destination operand
+lea address operand,destination operand
 
 not operand
 
